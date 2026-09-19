@@ -1,0 +1,30 @@
+// with the help of DOM ->document obect model which is a child of window object aur uska bhai browser obej model
+//we can manipulate js with help of DOM
+// it is like a bridge between js and html
+// ex document.getELementById
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--id and class diff in js 
+    the only diiff is id name can ne used only once
+    while class name can be used multiple times
+    -->   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1">welcome to DOM manipulation</h1>
+
+    <script>
+        // document.getElementById
+        // here document is an object in js 
+        // the object which contains all the tags in js
+        
+        let myheading = document.getElementById("h1")
+        console.log(myheading.innerHTML);
+        
+     </script>
+</body>
+
+</html>
